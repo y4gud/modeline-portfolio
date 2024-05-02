@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  leemah:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - "3000:3000"
+
+    volumes:
+      - ./src:/app/src
+      - /app/node_modules
+
+    
