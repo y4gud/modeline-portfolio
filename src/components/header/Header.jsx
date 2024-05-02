@@ -1,13 +1,13 @@
-import "./header.css"
 import ME from "../../assets/Leemah-image.png"
 import HeaderSocials from "./HeaderSocials"
+import "./header.css"
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5 sty>Thanks for stopping by!</h5>
-        <h1 className="header__tag">O-MODELINE</h1>
+        <h5 sty>Thank you for stopping by!</h5>
+        <h1 className="header__tag">KIITAN - Fashion is Endless!</h1>
         <h5 className="text-light">All Purposes Fashion House</h5>
         <HeaderSocials/>
         <div className="me">
